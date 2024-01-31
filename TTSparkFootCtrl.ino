@@ -208,6 +208,9 @@ void setup() {
 
 void loop() {
     // Nothing to do in the loop for this basic example.
+
+/* This needs to be looked at. in Paul's code and read.me it says the execution code should be in this block. However, it is not here but in the setup() block. 
+My expectation is that this causes the flow to stay in the connect_FootControl part. */
   
 }
 
