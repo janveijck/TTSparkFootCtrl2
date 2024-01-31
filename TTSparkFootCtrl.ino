@@ -14,8 +14,9 @@ NimBLEClient* pClient;
 NimBLERemoteService* pMidiService;
 NimBLERemoteCharacteristic* pMidiCharacteristic;
 void connectFootCtrl();
+//Variables to toggle between various states
 int mode = 0;
-int presetmode = 0;
+int presetmode = 0;//used to determine when switch between presets or effects
 int effcomp = 0;
 int effdelay = 0;
 int effreverb = 0;
