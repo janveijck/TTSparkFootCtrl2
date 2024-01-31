@@ -7,7 +7,7 @@
 #define MIDI_SERVICE_UUID         "03b80e5a-ede8-4b33-a751-6ce34ec4c700" // MIDI Service UUID
 #define MIDI_CHARACTERISTIC_UUID  "7772e5db-3868-4112-a1a9-f2669d106bf3" // MIDI Characteristic UUID
 //#define MIDI_ADDRESS "08:29:78:37:7A:AD" 
-#define MIDI_ADDRESS "0D:8C:83:A3:84:AB"
+#define MIDI_ADDRESS "0D:8C:83:A3:84:AB"// my M-Vave MIDI_ADDRESS
 // #define MIDI_ADDRESS "11:61:7A:B5:E5:2F" //Tonino's Footctrl address
 
 NimBLEClient* pClient;
