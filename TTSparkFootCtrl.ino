@@ -200,7 +200,7 @@ void setup() {
     }
     DEBUG("Spark found and connected - starting");
     spark_state_tracker_start();
-    //connectFootCtrl();
+    connectFootCtrl();
 
 
     Serial.println("Setup complete.");
